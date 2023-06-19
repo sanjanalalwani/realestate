@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+img{
+    margin-bottom: 0px;
+}
+.navbar-brand{
+    color: #777;
+}
+
+@media (min-width: 768px){
+    .navbar-brand{
+        padding: 0px;
+    }
+}
+.navbar-brand{
+float: left;
+height: 50px;
+font-size: 18px;
+line-height: 20px
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+.navbar-brand>img{
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+}
