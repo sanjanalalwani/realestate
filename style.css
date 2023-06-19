@@ -164,3 +164,11 @@ img{
     justify-content: center;
     align-items: center;
 }
+.div-sec p::after {
+    content: " ";
+    border-left: 2px solid #d59742;
+    right: 2%;
+    height: 56%;
+    top: 37px;
+    position: absolute;
+}
