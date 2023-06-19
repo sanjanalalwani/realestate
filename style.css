@@ -154,3 +154,13 @@ img{
     width: 88%;
     padding: 0px 30px;
  }
+.full-secoverlay{
+    background: rgb(0 0 0 / 90%);
+    height: 100%;
+    width: 100%;
+}
+.item-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
