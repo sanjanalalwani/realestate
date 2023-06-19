@@ -172,4 +172,47 @@ img{
     top: 37px;
     position: absolute;
 }
-
+section{
+    display: block;
+}
+.mr0{
+    margin: 0;
+}
+.pd0{
+    padding: 0;
+}
+.fullscreen-video-backgroubd #youtube-iframe-wrapper{
+    display: flex;
+    border: 3px solid #f6b553;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 545px;
+}
+video{
+    display: inline-block;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.cover-content{
+    height: 545px;
+    padding: 90px;
+    display: flex;
+    align-items: center;
+}
+.cover-content p{
+    color: #666666;
+    font-size: 17px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 300;
+}
+p{
+    margin-bottom: 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-start: 0px;
+}
