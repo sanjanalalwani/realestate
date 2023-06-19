@@ -74,3 +74,25 @@ img{
       padding: 10px 0;
     }
   }
+  .carousel{
+    position: relative;
+  }
+  .carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+ .carousel-inner>active{
+    height: 100vh;
+    display: block;
+ }
+ .carousel-ineer>.item>img{
+    height: 100vh;
+    width: 100%;
+    line-height: 1;
+    display: block;
+    max-width: 100%;
+ }
+ .visible-xs{
+    display: none;
+ }
