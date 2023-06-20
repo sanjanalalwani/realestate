@@ -216,3 +216,44 @@ p{
     margin-inline-start: 0px;
     margin-inline-start: 0px;
 }
+.db{
+    position: fixed;
+    z-index: 9999;
+    bottom: 10px;
+    left: 10px;
+    letter-spacing: 1px;
+    border: 3px solid #fff;
+    font-size: 18px;
+    background: linear-gradient(to right,#f6b553,#f0d97f,#d59742);
+    color: #000;
+    padding: 8px 12px;
+    border-radius: 0px;
+    margin: 5px 0px;
+    outline: none;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    line-height: 1;
+    user-select: none;
+}
+.interested{
+    position: fixed;
+    z-index: 9999;
+    bottom: 10px;
+    right: 10px;
+    letter-spacing: 1px;
+    border: 3px solid #fff;
+    font-size: 18px;
+    background: linear-gradient(to right,#f6b553,#f0d97f,#d59742);
+    color: #000;
+    padding: 8px 12px;
+    border-radius: 0px;
+    margin: 5px 0px;
+    outline: none;
+}
