@@ -437,3 +437,59 @@ a{
     outline: none;
     text-decoration: none;
 }
+.menu-overlay {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: -100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.6s;
+}
+
+.menu-overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.menu-overlay a {
+    padding: 8px;
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: Oswald;
+    font-weight: 500;
+}
+
+.menu-overlay a span {
+    border-left: 3px solid #d2ac68;
+    border-right: 3px solid #d2ac68;
+    padding: 0 14px;
+    padding-top: 3px;
+}
+
+.menu-overlay a:hover,
+.menu-overlay a:focus {
+    color: #f1f1f1;
+}
+
+.menu-overlay .closebtn {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-size: 48px;
+}
+
+.global-sec {
+    padding: 70px 0;
+}
