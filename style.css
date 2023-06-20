@@ -387,3 +387,54 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.ametab.mytab {
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 10px;
+    border: none;
+}
+.nav {
+    padding-left: 0;
+    list-style: none;
+}
+.mytab li {
+    float: none !important;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.nav>li {
+    position: relative;
+}
+.ametab.mytab>li.active>a, .ametab.mytab>li.active>a:hover, .ametab.mytab>li.active>a:focus {
+    color: #000000 !important;
+}
+.mytab>li.active>a, .mytab>li.active>a:hover, .mytab>li.active>a:focus {
+    border-color: #cb9382;
+    background-image: linear-gradient(to right, #f6b553, #f0d97f, #d59742);
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
+}
+.mytab>li>a {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: ease all 0.5s;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
