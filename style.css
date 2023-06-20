@@ -372,3 +372,18 @@ a {
     border: 3px solid #fff;
     margin: 25px;
 }
+.amenities-gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin-bottom: 10px;
+}
+.owl-carousel.owl-drag .owl-item {
+    user-select: none;
+}
+.wt-small-title span {
+    background: linear-gradient(to right, #f6b553, #f0d97f, #d59742);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
