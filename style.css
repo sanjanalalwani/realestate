@@ -119,7 +119,7 @@ img{
     margin-right: -15px;
     margin-left: -15px;
  }
- .col-md-6{
+ .col-md-6, .col-md-4{
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -256,4 +256,119 @@ p{
     border-radius: 0px;
     margin: 5px 0px;
     outline: none;
+}
+#conf{
+    background-image: url(https://sunteckcity.com/images/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay-sec{
+    width: 100%;
+}
+.overlay-sec .overlay{
+    padding: 0px 85px 242px 23px;
+    background: #000000e6;
+}
+.confhead{
+    margin: 0 auto;
+    display: block;
+}
+.pricingTable{
+    text-align: center;
+}
+.pricingTable .pricingTable-header{
+    padding: 0 0 20px;
+}
+.pricingTable .title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.pricingTable .title:after {
+    content: "";
+    /* background: #F63459; */
+    width: 50px;
+    height: 3px;
+    margin: 10px auto 0;
+    display: block;
+    clear: both;
+    background-image: linear-gradient(to right, #f6b553, #f0d97f, #d59742);
+}
+.pricingTable .price-value {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    display: block;
+}
+.pricingTable .pricing-content {
+    border-radius: 0 0 20px 20px;
+    padding: 0px 0px 20px;
+}
+.pricingTable .pricingTable-signup a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    background-image: linear-gradient(to right, #f6b553, #f0d97f, #d59742);
+    font-weight: 600;
+    margin: 0 auto;
+    display: inline-block;
+    transition: all 0.5s;
+}
+a {
+    outline: none;
+    text-decoration: none !important;
+}
+.pricingTable .pricingTable-signup a::before {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 1;
+    top: 57%;
+    left: 55px;
+    width: 6%;
+    height: 50px;
+    z-index: 4;
+}
+.pricingTable .pricingTable-signup a::after {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 1;
+    bottom: 10%;
+    right: 58px;
+    width: 6%;
+    height: 50px;
+    z-index: 1;
+}
+.pricingTable .pricing-content {
+    border-radius: 0 0 20px 20px;
+    padding: 0px 0px 20px;
+}
+.pricingTable {
+    text-align: center;
+    padding: 20px 0 0;
+    box-shadow: 3px 3px 7px 0px rgb(0 0 0 / 30%);
+    transition: ease all 0.5s;
+    border: 3px solid #fff;
+    margin: 25px;
 }
