@@ -175,14 +175,9 @@ img{
 section{
     display: block;
 }
-.cover-sec {
-    /* padding: 30px 150px; */
-}
 
-.cover-img {
-    /* overflow: hidden; */
-    /* position: relative; */
-}
+
+ 
 
 .cover-img img {
     width: 100%;
