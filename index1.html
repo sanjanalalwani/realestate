@@ -158,12 +158,71 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 </div>
 <!-- download brochure & enquire now starts -->
-<button class="btn interested hidden-xs pulseanimation">Enquire now</button>
+<button class="btn interested hidden-xs pulseanimation" data-toggle="modal" data-target="#myModal">Enquire now</button>
 
 
 
 
-<button class="btn db pulseanimation">Download Brochure</button>
+<button class="btn db pulseanimation" data-toggle="modal" data-target="#myModal">Download Brochure</button>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+          <div class="modal-box">
+              <!-- Button trigger modal -->
+
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                          <div class="modal-body">
+                            <div class="logo" style="padding: 5px 0!important;">
+                              <img src="" alt="">
+                      </div>
+                              <form  id='contact_form' >
+                          <div class="formWrap">
+                          <label for="name"></label>
+
+                          <input type="text" name="name" id="name" placeholder="Full Name*" required class="form-control" title="Please enter your full name*" />
+                      </div>
+                      <div class="formWrap">
+                          <label for="city"></label>
+
+                          <input type="number" name="city" id="city" oninput="numberOnly(this.id);" placeholder="Pin Code*" maxlength="6" required class="form-control" title="Please enter a valid email city*" />
+                      </div>
+                      <div class="formWrap">
+                          <label for="phone-mobile"></label>
+
+                          <input type="number" name="phone-mobile" oninput="numberOnly(this.id);" id="phonemobile"  maxlength="10" required class="form-control" placeholder="Phone / Mobile*" title="Please enter a Phone / Mobile*" />
+                      </div>
+                                <div class="formWrap">             
+                              <input type="hidden" name="email" id="email" value="XXX@gmail.com" class="form-control"/>
+                          </div>
+                      <div class="formWrap">
+                          <label for="comments"></label>
+
+                          <textarea name="comments" class="form-control" id="comments" required cols="30" rows="2" placeholder="Address*" title="Please enter your message (at least 10 characters)*"></textarea>
+
+                          <div id="res"></div>
+                          <br />
+                        <div class="text-left">
+                          
+                        
+                          <input id="Submit1" class="btn btn-primary" type="submit" value="Submit" /></div>
+                      </div>
+                          
+                      </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
 
 
 
@@ -2616,6 +2675,20 @@ var current_url = window.location.href;
       }
       document.cookie = name + "=" + (value || "") + expires + "; path=/";
     }
+</script>
+<script>
+       //hide all tabs first
+$('.tab-content').hide();
+//show the first tab content
+$('#tab-1').show();
+
+$('#select-box').change(function () {
+   dropdown = $('#select-box').val();
+  //first hide all tabs again when a new option is selected
+  $('.tab-content').hide();
+  //then show the tab content of whatever option value was selected
+  $('#' + "tab-" + dropdown).show();                                    
+});
 </script>
 </body>
 </html>

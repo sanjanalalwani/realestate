@@ -2381,3 +2381,22 @@ button.btn-play {
         box-shadow: inset 0px 15px 10px -10px #666, inset 0px -15px 10px -10px #CCC;
     }
 }
+.modal-box .modal-dialog .modal-content .modal-body .form-control {
+    background: none;
+    width: 100%;
+    font-family: 'Montserrat';
+    margin: 0 auto 5px;
+    border: none;
+    border-bottom: 1px solid #BFB7B4;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-control {
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
